@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta title="Wiri Salud Argentina - Médicos de calidad de forma inmediata y sin cuota mensual.">
+  <title>Wiri Salud - Servicios de salud sin cuota mensual.</title>
+  <meta name="description" content="Sin trámites. Pagá solo por lo que usas. La plataforma que te permite obtener un turno de forma inmediata y pagarle directo al médico.">
+
+  <html lang="es">
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width"/>
+  <meta name="theme-color" content="#1a73e8"/>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+  <script src="https://kit.fontawesome.com/f0b15f1c17.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div class="top-title" id="element-0">
+  <table class="top-title">
+    <tr>
+      <td width="42px">
+          <a href="index.html"><i class="fa fa-arrow-left" aria-hidden: true;></i></a> 
+      </td>
+      <td width="100%">
+        Ayuda 
+      </td>
+    
+      <td width="42px">
+        <img src="logoapp.png" height="24px" style="padding-right: 10px;">
+      </td> 
+    </tr>
+  </table>
+</div>
+
+
+<div class="content">
+  <div class="top-title-back">
+  </div>
+
+  <div class="section_title">
+  ¿Con qué tema necesitás ayuda?
+  </div>
+
+
+  <div class="categorias">
+    <div > 
+      <div class="section_title" onclick="showpreguntas('acerca_de_wiri');"> Acerca de Wiri Salud</div>
+      <div class="preguntas" id="acerca_de_wiri" style="display: none;">
+      <div class="pregunta" onclick="showrespuesta('ws1');">
+        ¿Qué es Wiri Salud?
+        <div class="respuesta" style="display:none"  id="ws1">
+          Wiri es una plataforma de acceso a la Salud Privada, pero sin Cuotas mensuales, solo abonás los servicios médicos que utilices. No somos una Obra Social, ni una Empresa de Medicina Prepaga. El sistema se utiliza a través del website <strong>www.wiri.la</strong>, de manera simple y sencilla.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('ws3');">
+        ¿Cómo empiezo a usar Wiri?
+        <div class="respuesta" style="display:none" id="ws3">
+          Ingresá a <strong>www.wiri.la</strong>, y buscá de acuerdo a tu necesidad. Podrás buscar una especialidad médica o práctica, el nombre de un médico o el estudio/exámen que debas realizarte. Podrás ordenar los resultados de búsqueda por: a) precio, b) cercanía al consultorio, c) calificación del médico, d) turno más próximo y elegir el que te quede mejor.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('ws4');">
+        ¿Quienes pueden usar Wiri?
+        <div class="respuesta" style="display:none" id="ws4">
+          Cualquier persona puede utilizar Wiri Salud. No necesitás afiliarte ni crear una cuenta. Podés reservar un turno médico o contratar un servicio en menos de 1 minuto. Tampoco necesitás recirdar ninguna contrseña ni descargarte ninguna apliación.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('ws5');">
+        ¿Puedo utilizar Wiri siendo extranjero?
+        <div class="respuesta" style="display:none" id="ws5">
+          Si. Wiri es un servicio de salud que brinda a acceso a todas las personas residentes y no residentes. También puede ser utilizada por argentinos que están de viaje y quieren ser atendidos por videollamada.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('ws6');">
+        ¿Puedo utilizar Wiri si no tengo obra social?
+        <div class="respuesta" style="display:none" id="ws6">
+          Si. Wiri es un servicio de salud que brinda a acceso a todas las personas. Si te quedaste sin obra social ni prepaga, podés ser atendido de forma inmediata y 
+          con médicos de calidad. 
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('ws7');">
+        ¿Hay límites por edad o por enfermedades preexistentes?
+        <div class="respuesta" style="display:none" id="ws7">
+          No, cualquier persona mayor de 18 años puede utilizar Wiri Salud. Tampoco debés declarar ninguna enferemedad preexistente para utilizar Wiri.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('ws8');">
+        ¿Hay límites por edad o por enfermedades preexistentes?
+        <div class="respuesta" style="display:none" id="ws8">
+          No, cualquier persona mayor de 18 años puede utilizar Wiri Salud. Tampoco debés declarar ninguna enferemedad preexistente para utilizar Wiri.
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div > <!--inicio de reserva de turnos -->
+      <div class="section_title" onclick="showpreguntas('reserva_de_turnos');">  Reserva de turnos</div>
+      <div class="preguntas" id="reserva_de_turnos" style="display: none;">
+      <div class="pregunta" onclick="showrespuesta('rt1');">
+        ¿Cómo reservo un turno?
+        <div class="respuesta" style="display:none" id="rt1">
+          Reservar un turno con un prestador médico por priomera vez es muy fácil:
+          <ul>
+            <li>Ir a la sección "Categorías" y seleccionar la especialidad médica o tipo de exámen según tu necesidad, la plataforma te ofrecerá un listado de prácticas médicas para que selecciones qué tipo de atención necesitas: Consultas, Telemedicina, Radiografía, etc. <strong>Seleccioná lo que estabas buscando.</strong></li>
+            <li>La plataforma te mostrará el resultado de ti búsqueda: un listado de profesionales médicos, el precio, el domicilio y su disponibilidad horaria. también podrás ver los comentarios de otros pacientes y sus calificaciones.<strong>Seleccioná el médico y turno que mejor te quede.</strong></li>
+            <li>Completá los datos de la persona que será atendida por el profesional.</li>
+            <li>Seleccioná entre las opciones de pago disponible para cada profesional.</li>
+          </ul>
+          Listo! Te llegará un mail con los datos de tu reserva, y otro email con una credencial para que puedas acceder a descuentos en tus recetas en las farmacias adheridas.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('rt2');">
+        ¿Dónde veo los turnos que reservé?
+        <div class="respuesta" style="display:none"  id="rt2">
+          Podés ver el historial de tus turnos ingresando en la sección <a href="misturnos.html" target="_blank">Mis turnos</a> del menú. Desde allí podrás ver día, horario y domicilio del médico; y también podrás cancelarlo con un clic. 
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('rt3');">
+        ¿Cómo cancelo un turno?
+        <div class="respuesta" style="display:none"  id="rt3">
+          Ingresá en la sección <a href="misturnos.html" target="_blank">Mis turnos</a> del menú, seleccioná el turno que deseas cancelar, y haz clic en el enlace "Cancelar turno". 
+        </div>
+      </div>
+
+      </div> 
+    </div> <!--fin de reserva de turnos -->
+
+    <div > <!--inicio de descuentos en farmacias -->
+      <div class="section_title" onclick="showpreguntas('descuentos_en_farmacias');">Descuentos en farmacias</div>
+      <div class="preguntas" id="descuentos_en_farmacias" style="display: none;">
+      <div class="pregunta" onclick="showrespuesta('df1');">
+        What is Lorem Ipsum?
+        <div class="respuesta" style="display:none" id="df1">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('df2');">
+        Where does it come from?
+        <div class="respuesta" style="display:none"  id="df2">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock. 
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('df3');">
+        Why do we use it?
+        <div class="respuesta" style="display:none"  id="df3">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+        </div>
+      </div>
+
+      </div> 
+    </div> <!--fin de descuentos en farmacias -->
+
+
+    <div > <!--inicio de descuentos en farmacias -->
+      <div class="section_title" onclick="showpreguntas('guardia_medica');">Guardia médica por videollamada</div>
+      <div class="preguntas" id="guardia_medica" style="display: none;">
+      <div class="pregunta" onclick="showrespuesta('gm1');">
+        What is Lorem Ipsum?
+        <div class="respuesta" style="display:none" id="gm1">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('gm2');">
+        Where does it come from?
+        <div class="respuesta" style="display:none"  id="gm2">
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock. 
+        </div>
+      </div>
+
+      <div class="pregunta" onclick="showrespuesta('gm3');">
+        Why do we use it?
+        <div class="respuesta" style="display:none"  id="gm3">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+        </div>
+      </div>
+
+      </div> 
+    </div> <!--fin de descuentos en farmacias -->
+
+
+  </div>
+
+  <div class="section_title">
+  Preguntas frecuentes
+  </div>
+
+
+
+<div class="menu_inferior">
+<table style="width: 100%;">
+<tr> 
+<td class="opcion_menu"><a href="index.html"><i class="fa fa-home" aria-hidden: true;></i></br>Inicio</a></td>
+<td class="opcion_menu"><a href="categorias.html"><i class="fa fa-list" aria-hidden: true;></i></br>Categorías</a></td>
+<td class="opcion_menu"><a href="https://wiri.la/history" target="_blank"><i class="fa fa-calendar-check-o" aria-hidden: true;></i></br>Mis turnos</td>
+<td class="opcion_menu"><a href="credencial.html"><i class="fa fa-id-card-o" aria-hidden: true;></i></br>Credencial</td>
+<td class="opcion_menu" onclick="show_more()"><i class="fa fa-bars" aria-hidden: true;></i></br>Más</td>
+</tr>
+</table>
+</div>
+<div style="height: 62px">
+</div>
+
+
+<script>
+  function displayespecialidades() {
+    var x = document.getElementById('especialidades_destacadas');
+    if (x.style.display === "none")
+    {x.style.display = "block";} else {x.style.display = "none";}
+    var x = document.getElementById('todos_especialidades');
+    if (x.style.display === "none")
+    {x.style.display = "block";} else {x.style.display = "none";}
+    var y = document.getElementById('ver_mas');
+    if (y.style.display === "none")
+    {y.style.display = "block";} else {y.style.display = "none";}
+    var z = document.getElementById('ver_menos');
+    if (z.style.display === "none")
+    {z.style.display = "block";} else {z.style.display = "none";}
+    };
+</script>
+
+<script>
+  function showpreguntas(parametro) {
+      var x = document.getElementById(parametro);
+      if (x.style.display === "none")
+      {x.style.display = "block";} else 
+      {x.style.display = "none";}
+    };
+</script>
+
+<script>
+  function showrespuesta(parametro2) {
+      var x = document.getElementById(parametro2);
+      if (x.style.display === "none")
+      {x.style.display = "inline-table";} else 
+      {x.style.display = "none";}
+    };
+</script>
+
+
+</body>
+
+
+</html>

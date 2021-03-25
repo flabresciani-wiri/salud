@@ -1,3 +1,4 @@
+
 body {
 /*    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
     font-family: "Proxima Nova", -apple-system, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
@@ -28,10 +29,10 @@ body {
 }
 
 .search-button{
-    padding-bottom: 13px;
-    padding-top: 12px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-bottom: 16px;
+    padding-top: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
     background-color: #4A47EA;
     color: #ffffff;
     border-radius: 5px

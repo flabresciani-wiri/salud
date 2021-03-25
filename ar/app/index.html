@@ -13,15 +13,17 @@
   <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
   <script src="https://kit.fontawesome.com/f0b15f1c17.js" crossorigin="anonymous"></script>
  	<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
-    <!-- Mobiscroll JS and CSS Includes -->
+    <!-- Mobiscroll JS and CSS Includes 
     <link rel="stylesheet" href="mobiscroll/css/mobiscroll.javascript.min.css">
-    <script src="mobiscroll/js/mobiscroll.javascript.min.js"></script>
-	<link rel="stylesheet" href="styles.css">
+    <script src="mobiscroll/js/mobiscroll.javascript.min.js"></script> -->
+
 
 
 </head>
@@ -37,22 +39,22 @@
 			<h1>COBERTURA MÉDICA</br>SIN CUOTA MENSUAL</h1>
 			<h3>La plataforma que te permite obtener un turno de forma inmediata y pagarle directo al médico.</br></h3>
 		</div>
-	</div>
+		</div>
 
-<!--
 	<div id="buscador" class="cont-header">
 	  <div class="header" id="myHeader" style="z-index: 2;">
 	      <input type="text" class="nav-search-input" aria-label="Ingresá lo que quieras encontrar" name="as_word" placeholder="Buscá una especialidad médica" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="0" autofocus><i class="fas fa-chevron-right search-button"></i>
 	  </div>
 	</div>
--->
 
+<!--
 
 	<div id="buscador" class="cont-header">
 	  <div class="header" id="myHeader" style="z-index: 2;">
 	      <select mbsc-dropdown id="demo-autocomplete" class="nav-search-input" data-input-style="box" maxlength="120" tabindex="0"></select>
 	  <i class="fas fa-chevron-right search-button"></i></div>
 	</div>
+-->
 
 
 <!--
@@ -339,45 +341,40 @@
 
 
 	<script> /////// BUSCADOR AUTOCOMPLETE
-				mobiscroll.settings = {
-		    lang: 'es',
-		    theme: 'ios',
-		    themeVariant: 'light'
-		};
-
-		var names = [{
-		            text: "control clinico clinica chequeo",
-		            value: 'clinica-medica',
-		            html: '<span class="especialidades">Clínica Médica</span>'
-		        }, {
-		            text: "ginecologia pap colpo DIU Uterino vulva Polipectomía guardia telemedicina",
-		            value: 'ginecologia',
-		            html: '<span class="especialidades">Ginecología</span>'
-		        }, {
-		            text: "electrocardiograma radiografia rayos ergometria presurometria ecografia doppler ecodoppler videoglucion radioscopia 5d 4d 3d espinograma scanfetal scan scangemelar tomografia mamografia",
-		            value: 'diagnostico-por-imagenes',
-		            html: '<span class="especialidades">Diagnóstico por Imágenes</span>'
-		        }, {
-		            text: "analisis sangre completo basico alergias anemia antifosfolipidico artritis celiaquia chagas coagulacion control covid diabetico embarazo enfermedades general hepatico hepatitis lipidico marcadores osteoporosis perfil renal reumatoidea rutina sexual sindrome test tiroideo transmision",
-		            value: 'analisis-de-sangre',
-		            html: '<span class="especialidades">Análisis de Sangre</span>'
-		        }, {
-		            text: "electrocardiograma presurometria holter ergometria presurometria ecodoppler vasos aorta ecografia cardio ",
-		            value: 'cardiologia',
-		            html: '<span class="especialidades">Cardiología</span>'		        },
-
-		        // Showing partial data. Download full source.
-		    ];
-
-		mobiscroll.select('#demo-autocomplete', {
-		    display: 'center',
-		    data: names,
-		    filter: true,
-		    placeholder: 'Buscá una especialidad médica'
-		});
-
-
-		</script>
+					mobiscroll.settings = {
+				    lang: 'es',
+				    theme: 'ios',
+				    themeVariant: 'light'
+					};
+					var names = [{
+					            text: "control clinico clinica chequeo",
+					            value: 'clinica-medica',
+					            html: '<span class="especialidades">Clínica Médica</span>'
+					        }, {
+					            text: "ginecologia pap colpo DIU Uterino vulva Polipectomía guardia telemedicina",
+					            value: 'ginecologia',
+					            html: '<span class="especialidades">Ginecología</span>'
+					        }, {
+					            text: "electrocardiograma radiografia rayos ergometria presurometria ecografia doppler ecodoppler videoglucion radioscopia 5d 4d 3d espinograma scanfetal scan scangemelar tomografia mamografia",
+					            value: 'diagnostico-por-imagenes',
+					            html: '<span class="especialidades">Diagnóstico por Imágenes</span>'
+					        }, {
+					            text: "analisis sangre completo basico alergias anemia antifosfolipidico artritis celiaquia chagas coagulacion control covid diabetico embarazo enfermedades general hepatico hepatitis lipidico marcadores osteoporosis perfil renal reumatoidea rutina sexual sindrome test tiroideo transmision",
+					            value: 'analisis-de-sangre',
+					            html: '<span class="especialidades">Análisis de Sangre</span>'
+					        }, {
+					            text: "electrocardiograma presurometria holter ergometria presurometria ecodoppler vasos aorta ecografia cardio ",
+					            value: 'cardiologia',
+					            html: '<span class="especialidades">Cardiología</span>'},
+					        // Showing partial data. Download full source.
+					    	];
+					mobiscroll.select('#demo-autocomplete', {
+					    display: 'center',
+					    data: names,
+					    filter: true,
+					    placeholder: 'Buscá una especialidad médica'
+					});
+	</script>
 
 
 

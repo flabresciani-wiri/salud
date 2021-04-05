@@ -1,6 +1,11 @@
   $( function() {
     var projects = [
       {
+        value: "guardia",
+        label: "guardia urgencia Resfrío Sinusitis Gripe Erupciones Asma Alergias Dolor garganta Vómitos Diarrea viajero",
+        desc: "Guardia médica 24 hs.",
+      },
+      {
         value: "ginecologia",
         label: "ginecologia pap colpo transvaginal ecografia diu cepillado biopsia uterino vulva polipectomia telemedicina videollamada videoconsulta",
         desc: "Ginecología",

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta title="Wiri Salud Argentina - Médicos de calidad de forma inmediata y sin cuota mensual.">
+  <title>Wiri Salud - Servicios de salud sin cuota mensual.</title>
+  <meta name="description" content="Sin trámites. Pagá solo por lo que usas. La plataforma que te permite obtener un turno de forma inmediata y pagarle directo al médico.">
+  <html lang="es">
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width"/>
+  <meta name="theme-color" content="#1a73e8"/>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <script src="js/practicas.js"></script>  
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <script src="https://kit.fontawesome.com/f0b15f1c17.js" crossorigin="anonymous" async="async"></script>
+
+  <!-- Google Tag Manager -->
+  <script>
+  function setupGTM() {
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KC4VXJN');
+  }
+  setupGTM();
+  </script>
+  <!-- Fin Google Tag Manager -->
+
+</head>
+
+<body onload="display_title_practicas();">
+    <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC4VXJN"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  <div class="top-title" id="element-0">
+    <table class="top-title">
+      <tr>
+        <td width="42px">
+            <a href="categorias.html"><i class="fa fa-arrow-left" aria-hidden: true;></i></a> 
+        </td>
+        <td width="100%" ><div id="titulo"></div>
+        </td>      
+        <td width="42px">
+          <img src="logoapp.png" height="24px" style="padding-right: 10px;">
+        </td> 
+      </tr>
+    </table>
+  </div>
+  <div class="top-title-back"></div>
+  <div style="height: 20px"></div>
+  <div class="section_title">Seleccioná una práctica médica<br>para ver disponibilidad y precios</div>  
+
+  <div id="contenedorpracticas" class="opciones" style="padding-left: 13px;padding-right: 13px;">
+    <div class="categorias box-shadow" style="margin-top: 30px;">
+      <div id="listapracticas">
+        <div id="practicas"></div>
+      </div>
+    </div>
+  </div>
+
+
+<div id="menu-inferior" class="menu_inferior">
+    <table style="width: 100%;">
+      <tr>
+        <td class="opcion_menu"><a href="index.html"><span id="menu1"><i class="fa fa-home" aria-hidden: true;></i></br>Inicio</a></span></td>
+        <td class="opcion_menu"><a href="categorias.html" class="menu_activo"><span id="menu2"><i class="fa fa-list" aria-hidden: true;></i></br>Categorías</a></td>
+        <td class="opcion_menu"><a href="https://wiri.la/history" target='_blank' rel="noreferrer"><span id="menu3"><i class="far fa-calendar-alt" aria-hidden: true;></i></br>Mis turnos</td>
+        <td class="opcion_menu"><a href="ayuda.html"><span id="menu5"><i class="far fa-question-circle" aria-hidden: true;></i></br>Ayuda</a></td>
+        <td class="opcion_menu" onclick="show_more()"><span id="menu6"><i class="fa fa-bars" aria-hidden: true;></i></br>Más</td>
+      </tr>
+    </table>
+</div>
+
+<div class="back_menu_inferior"></div>
+
+<div id="menu_more" class="menu_more" style="display: none;z-index: 100;">
+  <div class="top-title relative" id="element-0">
+    <table class="top-title relative">
+      <tbody><tr>
+        <td width="42px">
+            <a onclick="show_more()" style="cursor: pointer;"><i class="fa fa-arrow-left" aria-hidden:="" true;="" aria-hidden="true"></i></a> 
+        </td>
+        <td width="100%">
+          Menú 
+        </td>
+        <td width="42px">
+          <img src="logoapp.png" height="24px" style="padding-right: 10px;">
+        </td> 
+      </tr>
+    </tbody></table>
+  </div>
+  <div style="padding: 13px;font-size:16px;font-weight:400;vertical-align: middle;">
+    <table style="vertical-align: middle;text-align: left;width: 100%;border-collapse:collapse" width="100%" cellspacing="0px" cellpadding="0px">
+      <tr class="tr_menu_more"><td align="center"><i class="far fa-calendar-alt paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="https://wiri.la/history" target='_blank' rel="noreferrer">Mis turnos</a></td></tr>
+      <tr class="tr_menu_more"><td align="center"><i class="fa fa-id-card-o paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="https://wiri.la/credencial" target='_blank' rel="noreferrer">Mi credencial</a></td></tr>
+
+      <tr height="4px"><td class="border-bottom" colspan="2" ></td></tr>
+      <tr height="4px"><td></td></tr>
+
+         <tr class="tr_menu_more"><td align="center"><i class="fa fa-list paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categorias.html">Categorías</a></td></tr>       
+        <tr class="tr_menu_more"><td align="center"><i class="far fa-calendar-check paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categorias.html">Reservar turno médico</a></td></tr>     
+<!--        <tr class="tr_menu_more"><td align="center"><i class="fas fa-first-aid paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;">Guardia médica 24 horas</td align="center"></tr>    -->   
+            <tr class="tr_menu_more"><td align="center"><i class="fa fa-microscope paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categoria.html?e=laboratorios-clinicos">Análisis de laboratorio</a></td></tr>        
+            <tr class="tr_menu_more"><td align="center"><i class="fas fa-x-ray paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categoria.html?e=diagnostico-por-imagenes">Diagnóstico por imágenes</a></td></tr>
+
+      <tr height="4px"><td class="border-bottom" colspan="2" ></td></tr>
+      <tr height="4px"><td></td></tr>
+
+      <tr class="tr_menu_more"><td align="center"><i class="fas fa-pills paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="https://ar.wiri.la/farmacias" target='_blank'>Descuento en farmacias</a></td></tr>  
+
+      <tr height="4px"><td class="border-bottom" colspan="2" ></td></tr>
+      <tr height="4px"><td></td></tr>
+
+      <tr class="tr_menu_more"><td align="center"><i class="fa fa-user-md paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="https://prestadores.wiri.la/tarifas" target='_blank'> Quiero ser prestador médico</a></td></tr>
+
+      <tr height="4px"><td class="border-bottom" colspan="2" ></td></tr>
+      <tr height="4px"><td></td></tr>
+
+      <tr class="tr_menu_more"><td align="center"><i class="far fa-question-circle paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="ayuda.html">Ayuda</a></td></tr>   
+      <tr class="tr_menu_more"><td align="center"><i class="fas fa-info paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="https://wiri.la/" target='_blank'>Acerca de Wiri Salud</a></td></tr>       
+    </table>
+    <table width="100%" style="font-size: 36px;padding-top: 30px">
+      <tr class="tr_menu_more">
+        <td width="20%"></td>
+        <td align="center"><a href="https://www.instagram.com/wiri.salud/" target='_blank'><i class="fab fa-instagram-square paddingsimple" aria-hidden:="true"></i></a></td>       
+        <td align="center"><a href="https://www.facebook.com/WiriSalud" target='_blank'><i class="fab fa-facebook-square paddingsimple" aria-hidden:="true"></i></a></td>
+        <td align="center"><a href="https://www.linkedin.com/company/wiri-salud/" target='_blank'><i class="fab fa-linkedin paddingsimple" aria-hidden:="true"></i></a></td>
+        <td width="20%"></td>
+      </tr>
+    </table>
+   </div>
+  <div id="menu-inferior" class="menu_inferior">
+    <table style="width: 100%;">
+      <tr>
+        <td class="opcion_menu"><a href="index.html"><span id="menu1"><i class="fa fa-home" aria-hidden: true;></i></br>Inicio</a></span></td>
+        <td class="opcion_menu"><a href="categorias.html"><span id="menu2"><i class="fa fa-list" aria-hidden: true;></i></br>Categorías</a></td>
+        <td class="opcion_menu"><a href="https://wiri.la/history" target='_blank' rel="noreferrer"><span id="menu3"><i class="far fa-calendar-alt" aria-hidden: true;></i></br>Mis turnos</td>
+        <td class="opcion_menu"><a href="ayuda.html"><span id="menu5"><i class="far fa-question-circle" aria-hidden: true;></i></br>Ayuda</a></td>
+        <td class="opcion_menu" onclick="show_more()"><span id="menu6" class="menu_activo"><i class="fa fa-bars" aria-hidden: true;></i></br>Más</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<script type="text/javascript"> /////  abrir sandwidch MAS
+    function show_more() {
+      var x = document.getElementById("menu_more");
+      if (x.style.display === "none") {
+       x.style.display = "block";
+      
+      } else {
+        x.style.display = "none";
+      }      
+    }
+</script>
+
+</body>
+</html>

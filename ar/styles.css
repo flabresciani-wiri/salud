@@ -217,6 +217,11 @@ width: 100%;
 -webkit-font-smoothing: antialiased;
 }
 
+.encabezado{
+padding: 23px;
+padding-top: 0px;
+}
+
 .categorias {
 background-color: rgb(255, 255, 255);
 border-radius:10px;

@@ -252,40 +252,113 @@ Es la misma información que habitualmente piden las farmacias a las obras socia
   </div> <!--fin de descuentos en farmacias -->
 
 
-<!-- OCULTOA GUARDIA24HS. -------
+
   <div class="opciones" style="padding-left: 13px;padding-right: 13px;">
     <div class="categorias box-shadow sinmargen">
       <div class="especialidades_title" onclick="displayespecialidades('guardia_medica')">Guardia médica por videollamada</div>
       <div>
         <div class="preguntas" id="guardia_medica" style="display: none;">
           <div class="pregunta"><div onclick="showrespuesta('gm1');">
-            What is Lorem Ipsum?
+            ¿Qué es la guardia médica?
             </div><div class="respuesta" style="display:none" id="gm1">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-              <div class="util">¿Te resultó útil esta información?<br><a onclick="showrespuesta('gm1');"><i class="far fa-thumbs-up"></i> <i class="far fa-thumbs-down"></i></a>
+              Es un servicio que ofrece atención médica calificada e inmediata por videollamada, disponible las 24 horas, todos los días del año.
+			<div class="util">¿Te resultó útil esta información?<br><a id="gm1-ok" onclick="showrespuesta('gm1');"><i class="far fa-thumbs-up"></i>  </a><a id="gm1-no" onclick="showrespuesta('gm1');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+          <div class="pregunta"><div onclick="showrespuesta('gm11');">
+            ¿Cómo funciona la guardia médica?
+            </div><div class="respuesta" style="display:none" id="gm11">
+              ¡Como si fuera una consulta presencial, pero desde tu celular! Consultá con un médico por tus síntomas:<ul><li>Seleccionás la especialidad por la que necesitás consultar detallando el motivo del contacto y tus antecedentes, en caso de tener alguno.</li><li>Un médico atiende tu videollamada de inmediato o, si lo preferís, podés elegir a algún otro profesional de los disponibles para resolver tu inquietud.</li><li>Una vez finalizada la consulta médica calificás el servicio y si fuera necesario recibís las indicaciones médicas en tu casilla de mail.</li>
+      <div class="util">¿Te resultó útil esta información?<br><a id="gm11-ok" onclick="showrespuesta('gm11');"><i class="far fa-thumbs-up"></i>  </a><a id="gm11-no" onclick="showrespuesta('gm11');"><i class="far fa-thumbs-down"></i></a>
             </div>
             </div>
           </div>
           <div class="pregunta"><div onclick="showrespuesta('gm2');">
-            Where does it come from?
+            ¿Qué tipo de consultas puedo realizar?
             </div><div class="respuesta" style="display:none"  id="gm2">
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.
-              <div class="util">¿Te resultó útil esta información?<br><a onclick="showrespuesta('gm2');"><i class="far fa-thumbs-up"></i> <i class="far fa-thumbs-down"></i></a>
+              Solo consultas de baja complejidad y de atención primaria de la salud. <b>¡Recordá que Llamando al Doctor NO es un servicio de emergencias médicas! Si el usuario tiene una emergencia que se comunique a la brevedad con el 107 línea de Emergencias Médicas que atiende las 24hs.</b>
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm2-ok" onclick="showrespuesta('gm2');"><i class="far fa-thumbs-up"></i>  </a><a id="gm2-no" onclick="showrespuesta('gm2');"><i class="far fa-thumbs-down"></i></a>
             </div>
             </div>
           </div>
           <div class="pregunta"><div onclick="showrespuesta('gm3');">
-            Why do we use it?
+            ¿Qué tipo de afecciones se pueden atender por la guardia?
             </div><div class="respuesta" style="display:none"  id="gm3">
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-              <div class="util">¿Te resultó útil esta información?<br><a onclick="showrespuesta('gm3');"><i class="far fa-thumbs-up"></i> <i class="far fa-thumbs-down"></i></a>
+              Estos son algunos ejemplos de las afecciones que tratamos: Resfrío, Sinusitis, Gripe, Problemas pediátricos de baja complejidad, Erupciones cutáneas, Asma, Alergias, Infecciones del tracto urinario, Dolor de garganta, Vómitos, Diarrea, Problemas o enfermedades del viajero, Indicaciones para dejar de fumar.<br>Podrás consultar por cualquiera de las especialidades que brinda <b>Llamando al Doctor</b>: Pediatría, Clínica Médica y Ginecología / Obstetricia.<br>Hacé tu consulta en cualquier momento del día y desde cualquier lugar.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm3-ok" onclick="showrespuesta('gm3');"><i class="far fa-thumbs-up"></i>  </a><a id="gm3-no" onclick="showrespuesta('gm3');"><i class="far fa-thumbs-down"></i></a>
             </div>
             </div>
           </div>
+
+          <div class="pregunta"><div onclick="showrespuesta('gm31');">
+            ¿Qué tipo de afecciones NO se pueden atender por la guardia?
+            </div><div class="respuesta" style="display:none"  id="gm31">
+              Síntomas de riesgo de vida o que pueda causar deterioro de la persona, Eventos que se consideren una emergencia, urgencia o un caso grave, Afecciones del corazón o cerebrales, Dolor o presión en el pecho, Hemorragia o sangrado significativo, Pérdida de la conciencia, Envenenamiento, Quemaduras moderadas a severas, Convulsiones/Epilepsia, Dificultad para respirar, Hemorragia o sangrado significativo, Lesión grave de la cabeza, el cuello o la espalda ó Afectación grave de alguna extremidad.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm31-ok" onclick="showrespuesta('gm31');"><i class="far fa-thumbs-up"></i>  </a><a id="gm31-no" onclick="showrespuesta('gm31');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+
+          <div class="pregunta"><div onclick="showrespuesta('gm4');">
+            ¿Cómo seleccionan a los médicos la plataforma de la guardia médica?
+            </div><div class="respuesta" style="display:none"  id="gm4">
+              Cada profesional de Llamando al Doctor es un médico calificado y capacitado para responder las consultas de la especialidad a la que pertenecen. Cualquiera de ellos que te pueda atender te brindará el mejor servicio.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm4-ok" onclick="showrespuesta('gm4');"><i class="far fa-thumbs-up"></i>  </a><a id="gm4-no" onclick="showrespuesta('gm4');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+          <div class="pregunta"><div onclick="showrespuesta('gm5');">
+            ¿Qué debo hacer si caduca el tiempo disponible en una llamada?
+            </div><div class="respuesta" style="display:none"  id="gm5">
+              En caso de superar los 7 (siete) minutos de conversación, la llamada se cortará automáticamente. Si querés seguir hablando con el médico, deberás llamarlo nuevamente.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm5-ok" onclick="showrespuesta('gm5');"><i class="far fa-thumbs-up"></i>  </a><a id="gm5-no" onclick="showrespuesta('gm5');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+          <div class="pregunta"><div onclick="showrespuesta('gm6');">
+            ¿Necesito WiFi para utilizar el servicio?
+            </div><div class="respuesta" style="display:none"  id="gm6">
+              La conexión mínima requerida es 4G/LTE o una conexión Wi-Fi de alta velocidad. Al iniciar la aplicación se correrá un test para comprobar la calidad de la conexión. Para mejorar la calidad de la conexión se puede apagar el video y continuar la llamada con la opción solo audio.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm6-ok" onclick="showrespuesta('gm6');"><i class="far fa-thumbs-up"></i>  </a><a id="gm6-no" onclick="showrespuesta('gm6');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+
+          <div class="pregunta"><div onclick="showrespuesta('gm7');">
+            ¿Llamando al Doctor ofrece receta electrónica?
+            </div><div class="respuesta" style="display:none"  id="gm7">
+              Sí. La receta le llega por mail al usuario con las indicaciones de qué pasos seguir. Verificá tu casilla de spam y si no encontrás ahí la receta escribinos en el ‘globito’ de contacto.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm7-ok" onclick="showrespuesta('gm7');"><i class="far fa-thumbs-up"></i>  </a><a id="gm7-no" onclick="showrespuesta('gm7');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+
+          <div class="pregunta"><div onclick="showrespuesta('gm8');">
+            ¿Qué hago si no logro contactarme con un profesional luego de haber realizado el pago?
+            </div><div class="respuesta" style="display:none"  id="gm8">
+              En algunas oportunidades el servicio está con mucha demanda de llamadas. Te pedimos que llames sin cortar y con paciencia que hay médicos las 24h esperando por tu consulta. Por lo general nuestros médicos <b>contestan en menos de 7 minutos</b>, pero si es necesario esperá por favor 15 minutos.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm8-ok" onclick="showrespuesta('gm8');"><i class="far fa-thumbs-up"></i>  </a><a id="gm8-no" onclick="showrespuesta('gm8');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+
+          <div class="pregunta"><div onclick="showrespuesta('gm8');">
+            ¿Qué hago si llamo y se corta?
+            </div><div class="respuesta" style="display:none"  id="gm8">
+              Por favor controlá tener buena calidad de internet (ya sea por WiFi o con datos del celular). Podés probar llamando con WiFi y luego cambiar a datos si alguna de las dos opciones no funciona. El servicio funciona correctamente, solo se requiere una conexión de internet adecuada. Una vez que la consigas, intentá llamar nuevamente, hay médicos las 24h esperando por tu consulta.
+              <div class="util">¿Te resultó útil esta información?<br><a id="gm8-ok" onclick="showrespuesta('gm8');"><i class="far fa-thumbs-up"></i>  </a><a id="gm8-no" onclick="showrespuesta('gm8');"><i class="far fa-thumbs-down"></i></a>
+            </div>
+            </div>
+          </div>
+
+
+
+
         </div> 
       </div>
     </div>
-  </div>   -->       <!--fin de guardia medica por videollamada -->
+  </div>          <!--fin de guardia medica por videollamada -->
   <div style="height: 40px" ></div>
   <div class="section_title">Preguntas frecuentes</div>
       <div style="height: 10px" ></div>
@@ -523,10 +596,10 @@ Es la misma información que habitualmente piden las farmacias a las obras socia
 
       var x = document.getElementById('descuentos_en_farmacias');
       x.style.display = "none";
-/*
+
       var x = document.getElementById('guardia_medica');
       x.style.display = "none";
-*/
+
       if (a_display === "none")
       {a.style.display = "block";} else {a.style.display = "none";}
 

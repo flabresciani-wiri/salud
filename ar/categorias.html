@@ -92,21 +92,16 @@
       </div>
     </div>
 </div>
-
-
-<!--
 <div id="guardias-medicas" class="opciones" style="padding-left: 13px;padding-right: 13px;">
   <div class="categorias box-shadow" style="margin-bottom: 30px;">
-    <div class="especialidades_title" onclick="displayespecialidades('listaguardiamedica')">Guardia médica por videollamada</div>
-    <div id="listaguardiamedica" style="display: none">
+    <div class="especialidades_title"><a href="categoria.html?e=guardia">Guardia médica por videollamada</a></div>
+<!--    <div id="listaguardiamedica" style="display: none">
       <a href="https://wiri.la/profesional/llamando-al-doctor-clinica-medica/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLXBhOTR5cWd6bXhzbXRrY2JfZWR0YTgifQ==?location=ChIJMx5LVr3KvJURF6yxXqYBX5A" target="_blank"><div class="especialidades"><img class='img_cat' src='icons/transparent/clinica-medica.svg' alt="Clínica Médica">Clínica médica</div></a>
       <a href="https://wiri.la/profesional/llamando-al-doctor-ginecologia/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLTE1ZjViYWNiIn0=?location=ChIJMx5LVr3KvJURF6yxXqYBX5A" target="_blank"><div class="especialidades"><img class='img_cat' src='icons/transparent/ginecologia.svg'  alt="Ginecología">Ginecología</div></a>
       <a href="https://wiri.la/profesional/llamando-al-doctor-pediatria/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLXhwamVjZnNocHJqNnd1dThtd2p1OG0ifQ==?location=ChIJMx5LVr3KvJURF6yxXqYBX5A"><div class="especialidades"><img class='img_cat' src='icons/transparent/pediatria.svg'  alt="Pediatría">Pediatría</div></a>
-    </div>
+    </div>-->
   </div>
 </div>
--->
-
 
 <div id="menu-inferior" class="menu_inferior">
     <table style="width: 100%;">
@@ -148,7 +143,8 @@
 
         <tr class="tr_menu_more"><td align="center"><i class="fa fa-list paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categorias.html">Categorías</a></td></tr>       
         <tr class="tr_menu_more"><td align="center"><i class="far fa-calendar-check paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categorias.html">Reservar turno médico</a></td></tr>     
-<!--        <tr class="tr_menu_more"><td align="center"><i class="fas fa-first-aid paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;">Guardia médica 24 horas</td align="center"></tr>    -->   
+        <tr class="tr_menu_more"><td align="center"><i class="fas fa-first-aid paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="https://wiri.la/especialidad/guardia?location=EjZKb3PDqSBBbmRyw6lzIFBhY2hlY28gZGUgTWVsbywgQnVlbm9zIEFpcmVzLCBBcmdlbnRpbmEiLiosChQKEgmR_XZUmcq8lRGJwWpByARkqBIUChIJu39FBT3KvJURF8D35_z0YOE" target="_blank" rel="noreferrer">Guardia médica 24 horas</a></td align="center"></tr> 
+
             <tr class="tr_menu_more"><td align="center"><i class="fa fa-microscope paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categoria.html?e=laboratorios-clinicos">Análisis de laboratorio</a></td></tr>        
             <tr class="tr_menu_more"><td align="center"><i class="fas fa-x-ray paddingsimple" aria-hidden:="true"></i></td><td style="text-align: left;"><a href="categoria.html?e=diagnostico-por-imagenes">Diagnóstico por imágenes</a></td></tr>
 
@@ -204,8 +200,8 @@
       var y = document.getElementById('listaespecialidades');
       y.style.display = "none";
 
-   /*   var z = document.getElementById('listaguardiamedica');
-      z.style.display = "none";  */
+      var z = document.getElementById('listaguardiamedica');
+      z.style.display = "none";
 
       if (a_display === "none")
       {a.style.display = "block";} else {a.style.display = "none";}

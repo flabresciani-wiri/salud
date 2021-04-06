@@ -382,13 +382,13 @@ display: block;
 }
 
 .especialidades_title{
-    font-size: 16px;
+    font-size: 15px;
     padding: 20px;
     border-bottom: #e8e8e8 solid 0.5px;
     color: #606060;
     text-align: left;
     font-weight: 600;
-    line-height: 36px;
+    line-height: 30px;
     margin-right: 12px;
     font-family: "Questrial", -apple-system, "Work Sans", Poppins, Poppins light, Century Gothic, sans-serif;
 }

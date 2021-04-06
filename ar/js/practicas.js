@@ -14,7 +14,7 @@ function display_title_practicas() {
   var encabezado = "";
   var especialidad = decodeURI(getUrlVars()["e"]);
   switch(especialidad) {
-      case 'guardia':title = "Guardia Médica 24 horas";
+      case 'guardia':title = "Guardia 24 horas";
       opcionespracticas = "<a href='https://wiri.la/profesional/llamando-al-doctor-clinica-medica/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLXBhOTR5cWd6bXhzbXRrY2JfZWR0YTgifQ==' target='_blank'><div class='especialidades'>Guardia clínica por Videollamada</div></a><a href='https://wiri.la/profesional/llamando-al-doctor-ginecologia/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLTE1ZjViYWNiIn0=' target='_blank'><div class='especialidades'>Guardia ginecológica por Videollamada</div></a><a href='https://wiri.la/profesional/llamando-al-doctor-pediatria/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLXhwamVjZnNocHJqNnd1dThtd2p1OG0ifQ==' target='_blank'><div class='especialidades'>Guardia pediátrica por videollamada</div></a>";
       encabezado = "Servicio de guardia ofrecido por la empresa 'Llamando al Doctor'.<br>Es un servicio que ofrece atención médica calificada e inmediata por videollamada, disponible las 24 horas, todos los días del año.<br><u>Notas</u>:<ul><li>Tiempo promedio de espera para ser atendido: <b>8 minutos<b></li><li>Realizá todas las preguntas que necesités para quedarte tranquilo antes de cortar la videollamada con el médico de guardia. Una vez cortada la llamada, no podés retomar la llamada desde la plataforma.</li>"
       break;

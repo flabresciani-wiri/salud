@@ -48,7 +48,7 @@
 							<h2>COBERTURA MÉDICA</br>SIN CUOTA MENSUAL</h2>
 						</div>
 						<div >	
-							<h2>MÉDICOS PARTICULARES</br>CERCA DE TU CASA</h2>
+							<h2><span id="contenido_banner">MÉDICOS</span> PARTICULARES</br>CERCA DE TU CASA</h2>
 						</div>						
 						<div >	
 							<h2>TURNOS INMEDIATOS</br>DESDE $500</h2>
@@ -61,15 +61,23 @@
 	</div>
 	<div id="buscador" class="cont-header">
 	  <div class="header" id="myHeader" style="z-index: 2;">
-		<!--<div id="project-label">Select a project (type &quot;j&quot; for a start):</div>-->
+		<div id="project-help" style="display:none;text-align: left;">Escribí para filtrar las opciones.<br>Seleccioná una especialidad para continuar.</div>
 		<!--<img id="project-icon" src="images/transparent_1x1.png" class="ui-state-default" alt>-->
-		<input id="project" type="text" class="nav-search-input"  aria-label="Ingresá lo que quieras encontrar" name="as_word" placeholder="Buscá una especialidad o práctica" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="0" autofocus >
-		<input type="hidden" id="project-id" onchange="ir_a();"><i class="fas fa-chevron-right search-button"></i>
+		<input id="project" type="text" class="nav-search-input"  aria-label="Buscá una especialidad médica" name="as_word" placeholder="Buscá una especialidad médica" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="0"  onfocus="show_help();">
+		<input type="hidden" id="project-id" onfocus="show_help();" onchange="ir_a();"><i class="fas fa-chevron-right search-button"  onclick ="ir_a_categorias();"></i>
 		<!--<p id="project-description"></p>-->
 	  </div>
+	  <div style="height: 25px"></div>
+			<div id="ver_medicos_cerca" class="centrar" >
+				<a href="categoria.html?e=clinica-medica" class="search-button"><b>Ver médicos cerca de mi ubicación</b></a>
+			</div>
+	  <div style="height: 15px"></div>		
 	</div>
 
-	<div id="recomendaciones" class="contentgrey" style="padding-bottom: 30px">
+
+
+
+	<div id="recomendaciones" class="contentgrey">
 		<div class="banner">
 			<div class="section_title">
 		  	<span id="especialista">Médicos</span> recomendados<br>por nuestros pacientes
@@ -84,9 +92,6 @@
 				</div>
 			</div>
 		</div>
-			<div id="ver_medicos_cerca" class="centrar" >
-				<a href="categoria.html?e=clinica-medica" class="search-button"><b>Ver médicos cerca de mi ubicación</b></a>
-			</div>	
 	</div>
 
 	<div id="conoce-que-podes" style="padding-bottom: 30px">
@@ -232,6 +237,32 @@
 						  	<tr >
 				  				<td width="5%" ></td>
 						  		<td>Solo pagás por lo que usas.<br>Calificá al médico para ayudar a otras personas en su elección.</td>
+						  		<td width="5%"></td>
+							 </tr>
+					  	</table>
+				  	</div>
+				  	<div style="text-align: center;margin-right: 0px">
+						<table style="border-spacing: 0px;">
+				  			<tr >
+				  				<td class="td" width="50%" height="20px" ></td>
+						  		<td class="td"></td>
+						  		<td class="td" width="50%"></td>
+						  	</tr>
+				  		</table>
+				  		<table style="border-spacing: 0px;width:100%">
+				  			<tr >
+				  				<td width="5%" height="10px"></td>
+						  		<td></td>
+						  		<td width="5%"></td>
+						  	</tr>
+						  	<tr >
+				  				<td height="10px"></td>
+						  		<td width="90%"><a href="categorias.html" class="search-button">Empezar la búsqueda!</a></td>
+						  		<td></td>
+						  	</tr>
+						  	<tr >
+				  				<td width="5%" ></td>
+						  		<td></td>
 						  		<td width="5%"></td>
 							 </tr>
 					  	</table>

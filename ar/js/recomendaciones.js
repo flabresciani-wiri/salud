@@ -104,7 +104,16 @@ cr3="<div><div class='categorias recomendaciones box-shadow'><table style='width
   }
 
     document.getElementById("especialista").innerHTML = especialidad_recomendados;
-    document.getElementById("contenido_banner").innerHTML = especialidad_recomendados.toUpperCase();
+    
+    var contenido_banner = "";
+    if (especialidad == 'guardia')
+    {contenido_banner = "SERVICIOS DE GUARDIA</br>A TODOS EL PAÍS";}
+    else
+    {
+    contenido_banner = especialidad_recomendados.toUpperCase() + " PARTICULARES</br>CERCA DE TU CASA";
+    }
+    document.getElementById("contenido_banner").innerHTML = contenido_banner;
+
     document.getElementById("cr1").innerHTML = cr1;
     document.getElementById("cr2").innerHTML = cr2;
     document.getElementById("cr3").innerHTML = cr3;

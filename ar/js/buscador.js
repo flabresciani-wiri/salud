@@ -113,16 +113,16 @@
     ];
  
     $( "#project" ).autocomplete({
-      minLength: 2,
+      minLength: 0,
       source: projects,
       focus: function( event, ui ) {
         $( "#project" ).val( ui.item.desc );
         return false;
       },
       select: function( event, ui ) {
-        $( "#project" ).val( ui.item.desc );
+        $( "#project" ).val( ui.item.desc);
         $( "#project-id" ).val( ui.item.value );
-        $( "#project-description" ).html( ui.item.valu );
+        $( "#project-description" ).html( ui.item.value);
         $( "#project-icon" ).attr( "src", "images/" + ui.item.icon );
         ir_a();
         return false;
@@ -137,10 +137,19 @@
   } );
 
 
+    function show_help(){
+    document.getElementById("project-help").display = "block";
+    };
+
 
 //submit
     function ir_a(){
     var especialidad_elegida = null;
     especialidad_elegida = document.getElementById("project-id").value;
     window.location.href = "categoria.html?e=" + especialidad_elegida;
+        };
+
+
+    function ir_a_categorias(){
+    window.location.href = "categorias.html" ;
         };

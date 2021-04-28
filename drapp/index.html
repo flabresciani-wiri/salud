@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta title="Dr App">
+  <title>Dr App</title>
+  <meta name="description" content="">
+  <html lang="es">
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width"/>
+  <meta name="theme-color" content="#1a73e8"/>
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+</head>
+
+<body>
+		<div id="project-help" style="display:block;text-align: left;">Empezá a escribir tu apellido y <br>seleccioná tu nombre para continuar.</div>
+		<input id="project" type="text" class="nav-search-input"  aria-label="Escribí tu apellido acá" name="as_word" placeholder="Escribí tu apellido acá" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" tabindex="0"  onfocus="show_help();">
+		<input type="hidden" id="project-id" onfocus="show_help();" onchange="ir_a();"><i class="fas fa-chevron-right search-button"  onclick ="ir_a_categorias();"></i>
+
+  	<script src="https://salud.wiri.la/ar/jquery/jquery-1.12.4.js" ></script>
+  	<script src="https://salud.wiri.la/ar/jquery/jquery-ui.js" ></script>
+	<script src="https://salud.wiri.la/ar/js/apm.js"></script>  
+
+</body>
+</html>

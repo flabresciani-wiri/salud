@@ -67,5 +67,3 @@
     link = document.getElementById("project-id").value;
     window.location.href = "https://" + link;
         };
-
-        };

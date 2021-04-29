@@ -61,20 +61,11 @@
     };
   } );
 
-
-    function show_help(){
-    document.getElementById("project-help").display = "block";
-    };
-
-
 //submit
     function ir_a(){
-    var especialidad_elegida = null;
-    especialidad_elegida = document.getElementById("project-id").value;
-    window.location.href = "categoria.html?e=" + especialidad_elegida;
+    var link = null;
+    link = document.getElementById("project-id").value;
+    window.location.href = "https://" + link;
         };
 
-
-    function ir_a_categorias(){
-    window.location.href = "categorias.html" ;
         };

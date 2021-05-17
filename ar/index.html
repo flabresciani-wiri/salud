@@ -37,30 +37,28 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
-
+<div class="container">
 	<div class="top-container">	
 		<div id="logo">
 			<img src="https://v.fastcdn.co/u/2d7105a6/56281287-0-01-svg.svg" height="39px"  alt="logo">
 		</div>
-			<div id="propuesta-valor">
-				<h1>Sin trámites. Pagá solo por lo que usas.</h1>
-					<div class="carousel-propuesta" style="z-index: 0;margin-right: 0px">
-						<div >	
-							<h2>COBERTURA MÉDICA</br>SIN CUOTA MENSUAL</h2>
-						</div>
-						<div >	
-							<h2><span id="contenido_banner"></span></h2>
-						</div>						
-						<div >	
-							<h2>TURNOS INMEDIATOS</br>DESDE $500</h2>
-						</div>
+		<div id="propuesta-valor">
+			<h1>Sin trámites. Pagá solo por lo que usas.</h1>
+				<div class="carousel-propuesta" style="z-index: 0;margin-right: 0px">
+					<div >	
+						<h2>COBERTURA MÉDICA</br>SIN CUOTA MENSUAL</h2>
+					</div>
+					<div >	
+						<h2><span id="contenido_banner"></span></h2>
+					</div>						
+					<div >	
+						<h2>TURNOS INMEDIATOS</br>DESDE $500</h2>
+					</div>
 
-					</div>					
-				<h3>La plataforma que te permite obtener un turno de forma inmediata y pagarle directo al médico.</br></h3>
-			</div>
+				</div>					
+			<h3>La plataforma que te permite obtener un turno de forma inmediata y pagarle directo al médico.</br></h3>
 		</div>
 	</div>
-
 
 	<div id="buscador" class="cont-header">
 	<!--  ESCONDEMOS EL BUSCADOR	
@@ -72,11 +70,11 @@
 		//<p id="project-description"></p>
 	  </div>
 	 --> 
-	  <div style="height: 25px"></div>
-			<div id="ver_medicos_cerca" class="centrar" >
-				<a href="categoria.html?e=clinica-medica" class="search-button" id="a_ver_medicos_cerca"><b>Ver médicos cerca de mi ubicación</b></a>
-			</div>
-	  <div style="height: 15px"></div>		
+	  	<div style="height: 25px"></div>
+		<div id="ver_medicos_cerca" class="centrar" >
+			<a href="categoria.html?e=clinica-medica" class="search-button" id="a_ver_medicos_cerca"><b>Ver médicos cerca de mi ubicación</b></a>
+		</div>
+	  	<div style="height: 15px"></div>		
 	</div>
 
 	<div id="conoce-que-podes" class="contentgrey">
@@ -114,7 +112,7 @@
 		</div>
 	</div>
 
-	<div id="especialidades-medicas" class="content contentgrey" style="padding-left: 13px;padding-right: 13px;padding-bottom: 30px">
+	<div id="especialidades-medicas" class="content contentgrey" style="padding-bottom: 30px">
 		<div style="height: 30px"></div>
 			<div class="section_title">
 			  Reservá un turno con un especialista
@@ -122,7 +120,7 @@
 		<div class="categorias box-shadow" style="margin-top: 30px;margin-bottom: 30px;">
 		<div class="especialidades_title" >Especialidades médicas</div>
 	  
-	  	<div style="height: 10px"></div>
+	  	
 	    <div id="especialidades_destacadas" style="display:block;">
 	      <a href='categoria.html?e=clinica-medica'><div class="especialidades"><img class="img_cat" src="icons/transparent/clinica-medica.svg"  alt="Clínica médica"> Clínica médica</div> </a> 
 	      <a href='categoria.html?e=ginecologia'><div class="especialidades"><img class="img_cat" src="icons/transparent/ginecologia.svg" alt="Ginecología"> Ginecología</div></a> 
@@ -357,6 +355,7 @@
 		</div>
     </div>
 
+</div>
 
 <!-- COMENTADO PARA NO RECARGAR SINO SE USA EL BUSCADOR
 	<script  type="text/javascript"> /////// BUSCADOR HEADER
@@ -447,7 +446,7 @@
 	    arrows: true,
 	    centerMode:true,
 	    centerPadding:'5px',
-	    dots: false,
+	    dots: true,
 	    fade: false,
 	    infinite: true,
 	    lazyLoad: 'ondemand',//Accepts 'ondemand' or 'progressive'
@@ -456,10 +455,29 @@
 	    swipe: true,
 	    speed: 1000,//Slide/Fade animation speed
 	    touchMove: true,//Enable slide motion with touch
-	    touchThreshold: 5,//To advance slides, the user must swipe a length of (1/touchThreshold) * the width of the slider
+	    touchThreshold: 15,//To advance slides, the user must swipe a length of (1/touchThreshold) * the width of the slider
 	    useCSS: true, //Enable/Disable CSS Transitions
 	    useTransform: true, //Enable/Disable CSS Transforms
 	    variableWidth: false,//Variable width slides
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+		    {
+		      breakpoint: 800,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        touchThreshold: 5,
+		      }
+		    }
+		  ]
 	  });
 	});
 	</script>
@@ -468,9 +486,9 @@
 		$(document).ready(function(){
 	  $('.carousel-recomendados').slick({
 	    arrows: true,
-	    centerMode:true,
+	    centerMode:false,
 	    centerPadding:'5px',
-	    dots: true,
+	    dots: false,
 	    fade: false,
 	    infinite: true,
 	    lazyLoad: 'ondemand',//Accepts 'ondemand' or 'progressive'
@@ -479,10 +497,33 @@
 	    swipe: true,
 	    speed: 300,//Slide/Fade animation speed
 	    touchMove: true,//Enable slide motion with touch
-	    touchThreshold: 5,//To advance slides, the user must swipe a length of (1/touchThreshold) * the width of the slider
+	    touchThreshold: 15,//To advance slides, the user must swipe a length of (1/touchThreshold) * the width of the slider
 	    useCSS: true, //Enable/Disable CSS Transitions
 	    useTransform: true, //Enable/Disable CSS Transforms
 	    variableWidth: false,//Variable width slides
+	    slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+		    {
+		      breakpoint: 900,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        touchThreshold:10,
+		        dots:true,
+		       }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        touchThreshold: 5,
+		        dots:true,
+		      }
+		    }
+		  ]
+
 	  });
 	});
 	</script>

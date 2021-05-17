@@ -17,8 +17,14 @@ p{
 }
 
 .slick-dots{
-
 }
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .demo-non-form {
     color: initial;
@@ -82,6 +88,8 @@ transition: background 1s ease 0s;
 /* Page content */
 .content {
   padding: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .opciones{
@@ -255,7 +263,7 @@ margin-bottom: 10px;
 
 
 .especialidades {
-    font-size: 14px;
+    font-size: 16px;
     color: #606060;
     font-weight: 500;
     border-bottom: #e8e8e8 solid 0.5px;
@@ -382,7 +390,7 @@ display: block;
 }
 
 .especialidades_title{
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px;
     padding-right: 10px;
     border-bottom: #e8e8e8 solid 0.5px;
@@ -577,14 +585,14 @@ color: #4A47EA
 }
 
 .search-button{
-    padding-bottom: 14px;
+    padding-bottom: 12px;
     padding-top: 12px;
     padding-left: 16px;
     padding-right: 16px;
     background-color: #4A47EA;
     color: #ffffff;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700
 }
 
@@ -598,12 +606,12 @@ h1,h2,h3,h4,h5,h6 {
     font-family: Montserrat;
 }  
 
-h2 {font-size:54px;font-weight: 600;color: #4A47EA}
-
-h1{font-size:36px;font-weight: 300;color: #606060;margin-block-start: 20px;font-family: "Questrial", -apple-system, "Work Sans", Poppins, Poppins light, Century Gothic, sans-serif;
+h1{font-size:24px;font-weight: 300;color: #606060;margin-block-start: 20px;font-family: "Questrial", -apple-system, "Work Sans", Poppins, Poppins light, Century Gothic, sans-serif;
 }
 
-h3{font-size:32px;font-weight: 300;color:#606060;margin-block-end: 8px;font-family: "Questrial", -apple-system, "Work Sans", Poppins, Poppins light, Century Gothic, sans-serif;}
+h2 {font-size:40px;font-weight: 600;color: #4A47EA}
+
+h3{font-size:24px;font-weight: 300;color:#606060;margin-block-end: 8px;font-family: "Questrial", -apple-system, "Work Sans", Poppins, Poppins light, Century Gothic, sans-serif;}
 
 h4{font-size:24px;font-weight:500;color:#606060;}
 
@@ -772,6 +780,27 @@ color: #ffffff
 }
 
 
+
+@media (min-width: 576px){
+    .container {max-width: 540px;}
+}
+
+@media (min-width: 768px){
+    .container {max-width: 720px;}
+}
+
+
+@media (min-width: 992px){
+    .container {max-width: 960px;}
+}
+
+@media (min-width: 1200px)
+{
+    .container {max-width: 1140px;}
+}
+
+
+
 @media (max-width:480px){
 
 .div2{width: 100%;}
@@ -788,10 +817,19 @@ h5{font-size:18px;}
 
 h6{font-size:16px;}
 
-.menu {
-	font-size: 14px;
+.search-button{font-size: 14px;}
 
+.especialidades_title{font-size: 15px;}
+
+.especialidades {font-size: 14px;}
+
+.content {
+  padding: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
+
+.menu {font-size: 14px;}
 
 .bajada
 {
@@ -809,6 +847,7 @@ h6{font-size:16px;}
 font-size: 11px;
     }
 h2{font-size:19px;}
+
 }
 
 @media (max-width:340px){
@@ -850,7 +889,7 @@ h6{font-size:14px;}
 }
 
 .especialidades {
-    font-size: 16px;
+    font-size: 14px;
     }
 }
 

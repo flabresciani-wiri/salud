@@ -20,6 +20,7 @@ function completar_contenido_dinamico() {
   var boton1_texto = "Reservá un turno con un " + especialista;
   var boton1_url = "https://wiri.la/especialidad/" + especialidad + "?location=current";
   if (boton1_url == "https://wiri.la/especialidad/undefined?location=current") {boton1_url = "https://wiri.la/buscador?location=current";}
+  if (boton1_url == "https://wiri.la/especialidad/?location=current") {boton1_url = "https://wiri.la/buscador?location=current";}
   var boton2_texto = "Ver todas las especialidades";
   var boton2_url = "#page-block-ya78gn2vsf";//va a sección Ver todos los especialistas
   var keywords = "Wiri Salud, Médicos particulares, Medicina low cost, Chequeo anual ginecología, Wiri, Medicina por imágenes, Consultorios médicos, Telemedicina";

@@ -44,7 +44,7 @@ function completar_contenido_dinamico() {
   var bajada;
 
   //---------------- Inicio de los valores por defecto de la sección pack-------------------------------------------------------------------------------------
-      var pack_titulo = "Packs de Ginecología";
+      var pack_titulo = "Conocé nuestros Packs";
       var pack_bajada = "¿Necesitás hacerte un chequeo anual? Con nuestros packs podés cuidarte más por menos, seleccioná el tuyo y atendete esta misma semana.";
 
       var pack1_img = "https://v.fastcdn.co/u/2d7105a6/57229751-0-Cards-para-landings-.jpg";

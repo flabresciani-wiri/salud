@@ -293,9 +293,11 @@ function completar_contenido_dinamico() {
       especialista = "psiquiatra";
       keywords = "Wiri Salud, Médicos particulares, Medicina low cost, Wiri, Psicología, Psicología online Argentina, Psicólogos low cost, Psicólogos online, Terapia por videollamada, Psicología número teléfono";
       h1_title = "Psicólogos particulares online";
+
       bullet1_texto = "<strong>Psicoterapia online</strong> desde $ 500";
       bullet2_texto = "<strong>Turnos inmediatos</strong> desde casa.";
       bullet4_texto = "<strong>Más de 40 especialidades</strong>.";
+      img = "https://v.fastcdn.co/u/2d7105a6/57413646-0-Salud-Mental-1.jpg";
       boton1_texto = "Reservá un turno con un psicólogo";
       boton1_url = "https://wiri.la/especialidad/psicologia/telemedicina";
       boton2_texto = "Agendá un turno presencial";

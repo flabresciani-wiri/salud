@@ -339,6 +339,9 @@ function completar_contenido_dinamico() {
       case 'climaterio':
       img = "https://i.ibb.co/b2xX0XW/Ginecolog-a-6.jpg";
       break;
+      case 'pareja':
+      img = "https://i.ibb.co/TkzZdkD/Salud-Mental-2.jpg";
+      break;
   }
 //---------------- Fin de cambios de acuerdo a utm_content -------------------------------------------------------------------------------------
 

@@ -107,7 +107,7 @@
 {value: "http://bit.ly/gentilediego", label: "Gentile Diego", desc: "Gentile Diego",},
 {value: "http://bit.ly/gilabertjuan", label: "Gilabert Juan", desc: "Gilabert Juan",},
 {value: "http://bit.ly/gomezrebelolorena", label: "Gomes Rebelo, Lorena Fernanda", desc: "Gomes Rebelo, Lorena Fernanda",},
-{value: "-", label: "Gomez Oscar", desc: "Gomez Oscar",},
+{value: "https://meet.google.com/vnz-fvwi-bba", label: "Gomez Oscar", desc: "Gomez Oscar",},
 {value: "http://bit.ly/gomezricardo", label: "Gomez Ricardo", desc: "Gomez Ricardo",},
 {value: "http://bit.ly/gomezsebastian", label: "Gomez Sebastian Emanuel", desc: "Gomez Sebastian Emanuel",},
 {value: "http://bit.ly/gonzalezjorge", label: "Gonzalez Jorge", desc: "Gonzalez Jorge",},

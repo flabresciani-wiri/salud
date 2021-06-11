@@ -294,5 +294,5 @@
     function ir_a(){
     var link = null;
     link = document.getElementById("project-id").value;
-    window.location.href = "https://" + link;
+    window.location.href = link;
         };

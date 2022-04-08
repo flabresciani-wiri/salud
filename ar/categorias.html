@@ -57,13 +57,13 @@
 
 
 
-<div id="guardias-medicas" class="opciones" style="padding-left: 13px;padding-right: 13px;">
+<div id="laboratorios-clinicos" class="opciones" style="padding-left: 13px;padding-right: 13px;">
   <div class="categorias box-shadow">
     <div class="especialidades_title"><a href="categoria.html?e=laboratorios-clinicos">Analisis de Laboratorio Clínico</a></div>
   </div>
 </div>
 
-<div id="guardias-medicas" class="opciones" style="padding-left: 13px;padding-right: 13px;">
+<div id="diagnostico-por-imagenes" class="opciones" style="padding-left: 13px;padding-right: 13px;">
   <div class="categorias box-shadow">
     <div class="especialidades_title"><a href="categoria.html?e=diagnostico-por-imagenes">Diagnóstico por Imágenes</a></div>
   </div>
@@ -120,7 +120,7 @@
 </div>
 
 
-<div id="especialidadesmedicas" class="opciones" style="padding-left: 13px;padding-right: 13px;">
+<div id="listapopulares_div" class="opciones" style="padding-left: 13px;padding-right: 13px;">
   <div class="categorias box-shadow">
   <div class="especialidades_title" onclick="displayespecialidades('listapopulares')">Más reservados</div>
      <div id="listapopulares" style="display:block;">
@@ -236,6 +236,9 @@
       x.style.display = "none";
 
       var y = document.getElementById('listaespecialidades');
+      y.style.display = "none";
+
+      var y = document.getElementById('listapopulares');
       y.style.display = "none";
 
 /*      var z = document.getElementById('listaguardiamedica');

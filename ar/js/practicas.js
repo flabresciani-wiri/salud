@@ -24,7 +24,7 @@ function display_title_practicas() {
 
 
       case 'test-covid':title = "Test Covid";
-      opcionespracticas = "<a href='https://wiri.la/especialidad/laboratorios-clinicos/pcr-covid-hisopado?location=current'><div class='especialidades'>Test Covid19 - Hisopado PCR</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/hisopado-rapido-para-test-covid?location=current'><div class='especialidades'>Test Covid19 - Test rápido antígenos</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/testanticuerposcovid?location=current'><div class='especialidades'>Test Covid19 - Anticuerpos</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/chequeo-post-covid?location=current'><div class='especialidades'>Chequeo Post Covid (Examen clínico + Placa de tórax + Espirometría + Electro)</div></a>";break;
+      opcionespracticas = "<a href='https://wiri.la/especialidad/laboratorios-clinicos/pcr-covid-hisopado?location=current'><div class='especialidades'>Test Covid19 - Hisopado PCR</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/hisopado-rapido-para-test-covid?location=current'><div class='especialidades'>Test Covid19 - Test rápido antígenos</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/testanticuerposcovid?location=current'><div class='especialidades'>Test Covid19 - Anticuerpos</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/chequeo-post-covid?location=current'><div class='especialidades'>Chequeo Post Covid<br>(Examen clínico + Placa de tórax + Espirometría + Electro)</div></a>";break;
 
 
       case 'clinica-medica':title = "Clínica Médica";

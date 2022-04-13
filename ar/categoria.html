@@ -160,6 +160,19 @@
       }      
     }
 </script>
+<script type="text/javascript"> /////// Ver subcategorias
+    function displayespecialidades(subcategoria) {
+      var a_display;
+      var a = document.getElementById(subcategoria);
+      if (a.style.display === "none")
+      {a_display = "none";} else {a_display = "block";}
+
+      if (a_display === "none")
+      {a.style.display = "block";} else {a.style.display = "none";}
+
+      };
+</script>
+
 
 </body>
 </html>

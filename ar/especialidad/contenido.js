@@ -250,9 +250,6 @@ function completar_contenido_dinamico() {
         boton2_texto = "Reservá una videoconsulta";
         boton2_url = "https://wiri.la/especialidad/psicologia/telemedicina?location=current"; 
         bullet1_texto = "Turnos <strong>desde $550</strong>.";
-        bullet2_texto = "Profesionales de primer nivel <strong>cerca tuyo</strong>";
-        bullet4_texto = "<strong>Sin cuota mensual.</strong> Sin trámites.";
-        //bullet5_texto = "<strong>No necesitás obra social</strong> ni prepaga.";
         img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/61c7b2fe-557d-43cd-f2b3-02e6ea9f3137.jpg";
 
         //inicio del pack

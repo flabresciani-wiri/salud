@@ -29,7 +29,7 @@ function completar_contenido_dinamico() {
   var bullet2_texto;// = "<strong>Médicos particulares</strong> cerca tuyo.</span>";
   var bullet3_texto;// = "<strong>Sin cuota mensual</strong>. Sin trámites.";
   var bullet4_texto;// = "No necesitás obra social ni prepaga.";
-  var bullet5_texto;
+ // var bullet5_texto;
 
   var comofunciona1_titulo; //= "Buscá un médico que te quede cerca";
   var comofunciona1_explicacion; //= "Filtrá por especialidad. Ordená por precio, distancia, fecha o recomendaciones. Te podés atender presencialmente o por videollamada.";
@@ -52,25 +52,25 @@ function completar_contenido_dinamico() {
 
       var pack1_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/a11c7a59-c7b5-276d-3217-486e8c62850b.jpg";
       var pack1_titulo = "Telemedicina programada";
-      var pack1_precio = "Desde $ 500"
+      var pack1_precio = "Desde $ 700"
       var pack1_bajada = "Atendete online con médicos de todas las especialidades.";
       var pack1_urldestino = "https://wiri.la/telemedicina";
 
       var pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/7c0d3c9b-ed27-0b57-6998-97583de759e2.jpg";
       var pack2_titulo = "Chequeo anual ginecológico";
-      var pack2_precio = "Desde $ 1.200"
+      var pack2_precio = "Desde $ 1.500"
       var pack2_bajada = "Hacé tu chequeo anual ginecológico. Incluye consulta + PAP + Colposcopia.";
       var pack2_urldestino = "https://wiri.la/especialidad/ginecologia/consulta-pap-y-colpo-con-laboratorio?location=current";
 
       var pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/806634e6-f71c-5c0e-74d0-487e00f81df1.jpg";
       var pack3_titulo = "Test Covid-19";
-      var pack3_precio = "Desde $ 2.200"
+      var pack3_precio = "Desde $ 2.600"
       var pack3_bajada = "Test de anticuerpos, test rápido e hisopados PCR ¡Incluso a domicilio!.";
       var pack3_urldestino = "https://salud.wiri.la/ar/test-covid19";
 
       var pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
       var pack4_titulo = "Guardia online 24 hs";
-      var pack4_precio = "$ 600"
+      var pack4_precio = "$ 1.100"
       var pack4_bajada = "Médicos clínicos, pediatras y ginecólogos 24 horas, 365 días.";
       var pack4_urldestino = "https://wiri.la/especialidad/guardia?";
 
@@ -96,25 +96,25 @@ function completar_contenido_dinamico() {
 
           pack1_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/7c0d3c9b-ed27-0b57-6998-97583de759e2.jpg"
           pack1_titulo = "Chequeo anual ginecológico";
-          pack1_precio = "Desde $ 1.200"
+          pack1_precio = "Desde $ 1.500"
           pack1_bajada = "Hacé tu chequeo anual ginecológico. Incluye consulta + PAP + Colposcopia.";
           pack1_urldestino = "https://wiri.la/especialidad/ginecologia/consulta-pap-y-colpo-con-laboratorio?location=current";
 
           pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/eb5f2a8e-f2cd-9ac1-bc67-84dcd0ac5b6b.jpg";
           pack2_titulo = "Consulta ginecológica";
-          pack2_precio = "Desde $ 600"
+          pack2_precio = "Desde $ 800"
           pack2_bajada = "Resolvé todas tus dudas con un ginecólogo particular esta misma semana.";
           pack2_urldestino = "https://wiri.la/especialidad/ginecologia?location=current"; 
 
           pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
           pack3_titulo = "Guardia ginecológica 24 horas";
-          pack3_precio = "$ 600"
+          pack3_precio = "$ 1.100"
           pack3_bajada = "Ginecólogos disponibles las 24 horas, los 7 días de la semana. Atendete ya.";
           pack3_urldestino = "https://wiri.la/profesional/llamando-al-doctor-ginecologia/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLTE1ZjViYWNiIn0=";
 
           pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/a11c7a59-c7b5-276d-3217-486e8c62850b.jpg";
           pack4_titulo = "Videoconsulta ginecológica";
-          pack4_precio = "Desde $ 600"
+          pack4_precio = "Desde $ 700"
           pack4_bajada = "Atendete con un especialista y resolvé todas tus dudas desde donde estés.";
           pack4_urldestino = "https://wiri.la/especialidad/ginecologia/telemedicina";
 
@@ -132,16 +132,6 @@ function completar_contenido_dinamico() {
         boton2_url = "https://wiri.la/buscador?location=current";
       break;
 
-/*
-      case '':
-        keywords = "Wiri Salud, Médicos particulares, Médico clínico particular, Medicina low cost, Wiri, Telemedicina, Guardia online 24 horas, Médicos telemedicina 24 horas, Telemedicina argentina, Telemedicina online, Médicos 24 horas";
-        h1_title = "Médicos clínicos particulares a solo un click";
-        boton1_texto = "Reservá un turno presencial";
-        boton1_url = "https://wiri.la/especialidad/clinica-medica?location=current";
-        boton2_texto = "Ver todas las especialidades";
-        boton2_url = "https://wiri.la/buscador?location=current"; 
-      break;
-*/
       case 'cardiologia':
         especialistas = "Cardiólogos";
         especialista = "cardiólogo";
@@ -158,26 +148,26 @@ function completar_contenido_dinamico() {
 
           pack1_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/eb5f2a8e-f2cd-9ac1-bc67-84dcd0ac5b6b.jpg";
           pack1_titulo = "Consulta cardiológica";
-          pack1_precio = "Desde $ 500"
+          pack1_precio = "Desde $ 800"
           pack1_bajada = "Atendete con un cardiólogo y resolvé todas tus dudas.";
           pack1_urldestino = "https://wiri.la/especialidad/cardiologia?location=current";
 
           pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/e5ce9da0-beef-8e9f-5bb8-55251e11c2f1.jpg"
           pack2_titulo = "Apto físico";
-          pack2_precio = "Desde $ 700"
+          pack2_precio = "Desde $ 900"
           pack2_bajada = "Conseguí tu apto físico. Incluye consulta con un cardiólogo y electro.";
           pack2_urldestino = "https://wiri.la/especialidad/cardiologia/apto-fisico?location=current";
 
           pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/a11c7a59-c7b5-276d-3217-486e8c62850b.jpg";
           pack3_titulo = "Telemedicina programada";
-          pack3_precio = "Desde $ 500"
+          pack3_precio = "Desde $ 700"
           pack3_bajada = "Atendete por videollamada con nuestros cardiólogos estés donde estés.";
           pack3_urldestino = "https://wiri.la/especialidad/cardiologia/telemedicina?location=current";
 
 
           pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
           pack4_titulo = "Guardia online 24 hs";
-          pack4_precio = "Desde $ 600"
+          pack4_precio = "Desde $ 1.100"
           pack4_bajada = "Conectate con un médico las 24 horas los 7 días de la semana.";
           pack4_urldestino = "https://wiri.la/especialidad/guardia?";
         //fin del pack 
@@ -224,26 +214,26 @@ function completar_contenido_dinamico() {
 
             pack1_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/60920836-61c4-0fd2-5488-f8b1ed2ea266.jpg";
             pack1_titulo = "Control general de rutina";
-            pack1_precio = "Desde $ 975"
+            pack1_precio = "Desde $ 1.210"
             pack1_bajada = "Análisis de sangre y de orina completos en laboratorio.";
             pack1_urldestino = "https://wiri.la/especialidad/analisis-de-sangre";
 
 
             pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/1cd0fa4a-cf4b-756c-8d96-82223895e59d.jpg"
             pack2_titulo = "Ecografía ginecológica";
-            pack2_precio = "Desde $ 750"
+            pack2_precio = "Desde $ 1.200"
             pack2_bajada = "Exploración básica ginecológica del útero y otros órganos internos.";
             pack2_urldestino = "https://wiri.la/especialidad/diagnostico-por-imagenes/ecografia-ginecologica?location=current";
 
             pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/806634e6-f71c-5c0e-74d0-487e00f81df1.jpg";
             pack3_titulo = "Test Covid-19";
-            pack3_precio = "Desde $ 2.200"
+            pack3_precio = "Desde $ 2.600"
             pack3_bajada = "Test de anticuerpos, test rápido e hisopados PCR ¡Incluso a domicilio!.";
             pack3_urldestino = "https://salud.wiri.la/ar/test-covid19";
 
             pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
             pack4_titulo = "Guardia online 24 hs";
-            pack4_precio = "$ 600"
+            pack4_precio = "$ 1.100"
             pack4_bajada = "Médicos clínicos, pediatras y ginecólogos 24 horas, 365 días.";
             pack4_urldestino = "https://wiri.la/especialidad/guardia?";
 
@@ -262,7 +252,7 @@ function completar_contenido_dinamico() {
         bullet1_texto = "Turnos <strong>desde $550</strong>.";
         bullet2_texto = "Profesionales de primer nivel <strong>cerca tuyo</strong>";
         bullet4_texto = "<strong>Sin cuota mensual.</strong> Sin trámites.";
-        bullet5_texto = "<strong>No necesitás obra social</strong> ni prepaga.";
+        //bullet5_texto = "<strong>No necesitás obra social</strong> ni prepaga.";
         img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/61c7b2fe-557d-43cd-f2b3-02e6ea9f3137.jpg";
 
         //inicio del pack
@@ -271,25 +261,25 @@ function completar_contenido_dinamico() {
 
             pack1_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/8444df2f-deef-b07b-13c0-2ec8c1584e52.jpg";
             pack1_titulo = "Psicoterapia online";
-            pack1_precio = "Desde $ 500"
+            pack1_precio = "Desde $ 700"
             pack1_bajada = "Atendete con un psicólogo por videollamada desde donde estés.";
             pack1_urldestino = "https://wiri.la/especialidad/psicologia/telemedicina";
 
             pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/c16e681b-7085-9576-be8b-669f974d050a.jpg"
             pack2_titulo = "Terapia presencial";
-            pack2_precio = "Desde $ 700"
+            pack2_precio = "Desde $ 800"
             pack2_bajada = "Hablá con un profesional y expresá tus emociones para sentirte mejor.";
             pack2_urldestino = "https://wiri.la/especialidad/psicologia/consulta-general-en-consultorio?location=current";
 
             pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/a11c7a59-c7b5-276d-3217-486e8c62850b.jpg";
             pack3_titulo = "Telemedicina programada";
-            pack3_precio = "Desde $ 500"
+            pack3_precio = "Desde $ 700"
             pack3_bajada = "Atendete por videollamada con médicos de todas las especialidades.";
             pack3_urldestino = "https://wiri.la//telemedicina";
 
             pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
             pack4_titulo = "Guardia online 24 hs";
-            pack4_precio = "Desde $ 600"
+            pack4_precio = "Desde $ 1.100"
             pack4_bajada = "Conectate con un médico las 24 horas los 7 días de la semana.";
             pack4_urldestino = "https://wiri.la/especialidad/guardia?";
           //fin del pack 
@@ -383,20 +373,20 @@ function completar_contenido_dinamico() {
 
           pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/a11c7a59-c7b5-276d-3217-486e8c62850b.jpg"
           pack2_titulo = "Telemedicina programada";
-          pack2_precio = "Desde $ 500"
+          pack2_precio = "Desde $ 700"
           pack2_bajada = "Atendete online con médicos de todas las especialidades.";
           pack2_urldestino = "https://wiri.la/telemedicina";
 
           pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/806634e6-f71c-5c0e-74d0-487e00f81df1.jpg";
           pack3_titulo = "Test Covid-19";
-          pack3_precio = "Desde $ 2.200"
+          pack3_precio = "Desde $ 2.600"
           pack3_bajada = "Test de anticuerpos, test rápido e hisopados PCR ¡Incluso a domicilio!.";
           pack3_urldestino = "https://salud.wiri.la/ar/test-covid19";
 
 
           pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
           pack4_titulo = "Guardia online 24 hs";
-          pack4_precio = "$ 600"
+          pack4_precio = "$ 1.100"
           pack4_bajada = "Médicos clínicos, pediatras y ginecólogos 24 horas, 365 días.";
           pack4_urldestino = "https://wiri.la/especialidad/guardia?";
 
@@ -657,7 +647,7 @@ function completar_contenido_dinamico() {
       if(bullet2_texto != null) {document.getElementById("bullet2_texto").innerHTML = bullet2_texto;}
       if(bullet3_texto != null) {document.getElementById("bullet3_texto").innerHTML = bullet3_texto;}
       if(bullet4_texto != null) {document.getElementById("bullet4_texto").innerHTML = bullet4_texto;}
-      if(bullet5_texto != null) {document.getElementById("bullet5_texto").innerHTML = "<li><span class='x_f2074b6c'>" + bullet5_texto +"</span></li>";}
+//      if(bullet5_texto != null) {document.getElementById("bullet5_texto").innerHTML = "<li><span class='x_f2074b6c'>" + bullet5_texto +"</span></li>";}
       } 
     else {document.getElementById("bajada").innerHTML = bajada;}
 

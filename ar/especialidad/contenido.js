@@ -87,12 +87,13 @@ function completar_contenido_dinamico() {
         img = "https://v.fastcdn.co/u/2d7105a6/57229571-0-Ginecologa-1.jpg";
 
         h1_title = "Ginecólogos particulares a solo un click";
-        boton1_texto = "Reservá un turno con un ginecólogo";
-        boton1_url = "https://wiri.la/especialidad/ginecologia?location=current";
-        boton2_texto = "Reservá una videoconsulta ginecológica";
-        boton2_url = "https://wiri.la/especialidad/ginecologia/telemedicina";
-        boton3_texto = "Chequeo Anual ginecológico";
-        boton3_url = "https://wiri.la/especialidad/ginecologia/consulta-pap-y-colpo-con-laboratorio?location=current";
+        
+        boton1_texto = "Reservá tu chequeo anual";
+        boton1_url = "https://wiri.la/especialidad/ginecologia/consulta-pap-y-colpo-con-laboratorio?location=current&distance=25";
+        boton2_texto = "Reservá un turno con un ginecólogo";
+        boton2_url = "https://wiri.la/especialidad/ginecologia?location=current";
+        boton3_texto = "Reservá una videoconsulta ginecológica";
+        boton3_url = "https://wiri.la/especialidad/ginecologia/telemedicina";
 
 
         //inicio del pack

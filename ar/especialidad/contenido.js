@@ -23,6 +23,8 @@ function completar_contenido_dinamico() {
   if (boton1_url == "https://wiri.la/especialidad/?location=current") {boton1_url = "https://wiri.la/buscador?location=current";}
   var boton2_texto;// = "Ver todas las especialidades";
   var boton2_url;// = "#page-block-ya78gn2vsf";//va a sección Ver todos los especialistas
+  var boton3_texto;// = "Reservá un turno con un " + especialista;
+  var boton3_url;// = "https://wiri.la/especialidad/" + especialidad + "?location=current";
   var keywords;// = "Wiri Salud, Médicos particulares, Medicina low cost, Chequeo anual ginecología, Wiri, Medicina por imágenes, Consultorios médicos, Telemedicina";
   var description;// = "Conocé Wiri, la salud que merecés al precio que necesitás, Comenzá a cuidarte mejor con los mejores médicos particulares a precios accesibles, sin cuotas ni trámites. Turnos inmediatos y más de 30% de descuento en farmacias y estudios solo en Wiri Salud.";
   var bullet1_texto;// = "<strong>Turnos inmediatos</strong> desde $ 500.";
@@ -88,7 +90,10 @@ function completar_contenido_dinamico() {
         boton1_texto = "Reservá un turno con un ginecólogo";
         boton1_url = "https://wiri.la/especialidad/ginecologia?location=current";
         boton2_texto = "Reservá una videoconsulta ginecológica";
-        boton2_url = "https://wiri.la/especialidad/ginecologia/telemedicina"; 
+        boton2_url = "https://wiri.la/especialidad/ginecologia/telemedicina";
+        boton3_texto = "Chequeo Anual ginecológico";
+        boton3_url = "https://wiri.la/especialidad/ginecologia/consulta-pap-y-colpo-con-laboratorio?location=current";
+
 
         //inicio del pack
           pack_titulo = "Conocé nuestros packs";
@@ -618,13 +623,18 @@ function completar_contenido_dinamico() {
     if(h1_title != null)
     {document.getElementById("h1_title").innerHTML = h1_title;}
 
+
     if(boton1_url != null | boton1_texto != null)
-    {boton1 = "<a href='" + boton1_url + "' id='link-6jksnupd35j' class='url-link btn item-block' data-at='button' data-link-6jksnupd35j=''>" + boton1_texto + "</span></a>";
-    document.getElementById("boton1").innerHTML = boton1;}
+    {boton1 = "<a href='" + boton1_url + "' id='link-7r27enb0dfx' target='_blank' class='url-link btn    item-block' data-at='button' data-link-7r27enb0dfx=''>" + boton1_texto + "</span></a>";
+    document.getElementById(" ").innerHTML = boton1;}
 
     if(boton2_url != null | boton2_texto != null)
     {boton2 = "<a href='" + boton2_url + "' id='link-6jksnupd35j' class='url-link btn item-block' data-at='button' data-link-6jksnupd35j=''>" + boton2_texto + "</span></a>";
     document.getElementById("boton2").innerHTML = boton2;}
+
+    if(boton3_url != null | boton3_texto != null)
+    {boton3 = "<a href='" + boton3_url + "' id='link-6jksnupd35j' class='url-link btn item-block' data-at='button' data-link-6jksnupd35j=''>" + boton3_texto + "</span></a>";
+    document.getElementById(" ").innerHTML = boton3;}
 
     packs = "<div class='section-holder-border item-block item-absolute' data-at='section-border'></div><div class='section-holder-overlay item-block item-absolute' data-at='section-overlay'></div><div class='section-block'><div class='section-inner section-fit section-relative'><div class='widget item-absolute headline  ' id='element-1127' data-at='headline'><div class='contents'><h1><span class='x_b614627d x_f82204f0'><span class='x_a0ecb142'>" + pack_titulo +"</span></span></h1></div></div><div class='widget item-absolute paragraph  ' id='element-1133' data-at='paragraph'><div class='contents'><p class='x_dc68832a x_2c80ab57'><span class='x_a0ecb142'>" + pack_bajada + "</span></p></div></div><div class='widget item-absolute ' id='element-1131'><div class='contents shape box figure' data-at='shape' data-src='' style='background-image: url(" + pack1_img +");'></div></div><div class='widget item-absolute  ' id='element-1164'><a href='" + pack1_urldestino + "' id='link-6tpukgmk3t' class='url-link btn    item-block' data-at='button' data-link-6tpukgmk3t=''></a></div><div class='widget item-absolute ' id='element-1132'><div class='contents shape box figure' data-at='shape' data-src='' style='background-image: url(" + pack2_img +");'></div></div><div class='widget item-absolute  ' id='element-1165'><a href='" + pack2_urldestino + "' id='link-3zvmxjazhbi' class='url-link btn    item-block' data-at='button' data-link-3zvmxjazhbi=''></a></div><div class='widget item-absolute ' id='element-1128'><div class='contents shape  box figure ' data-at='shape'></div></div><div class='widget item-absolute ' id='element-1135'><div class='contents shape  box figure ' data-at='shape'></div></div><div class='widget item-absolute headline  ' id='element-1130' data-at='headline'><div class='contents'><h3><span class='x_e4d7cbfa x_70463731'><span class='x_a0ecb142'>" + pack1_titulo + "</span></span></h3></div></div><div class='widget item-absolute headline  ' id='element-1134' data-at='headline'><div class='contents'><h3><span class='x_7a702815 x_225e04ca'><span class='x_a0ecb142'>" + pack1_precio + "</span></span></h3></div></div><div class='widget item-absolute headline  ' id='element-1136' data-at='headline'><div class='contents'><h3><span class='x_da6ad2be'><span class='x_a0ecb142'>" + pack2_titulo + "</span></span></h3></div></div><div class='widget item-absolute headline  ' id='element-1137' data-at='headline'><div class='contents'><h3><span class='x_6f8d78f4 x_225e04ca'><span class='x_a0ecb142'>" + pack2_precio + "</span></span></h3></div></div><div class='widget item-absolute paragraph  ' id='element-1129' data-at='paragraph'><div class='contents'><p class='x_ea16b79e x_0a34168d'><span class='x_a0ecb142'>" + pack1_bajada + "</span></p></div></div><div class='widget item-absolute paragraph  ' id='element-1138' data-at='paragraph'><div class='contents'><p class='x_fae6260b x_0a34168d'><span class='x_a0ecb142'>" + pack2_bajada + "</span></p></div></div><div class='widget item-absolute ' id='element-1142'><div class='contents shape box figure' data-at='shape' data-src='' style='background-image: url(" + pack3_img +");'></div></div><div class='widget item-absolute ' id='element-1143'><div class='contents shape box figure' data-at='shape' data-src='' style='background-image: url(" + pack4_img +");'></div></div><div class='widget item-absolute  ' id='element-1166'><a href='" + pack4_urldestino + "' id='link-ypl60b8hasg' class='url-link btn    item-block' data-at='button' data-link-ypl60b8hasg=''></a></div><div class='widget item-absolute  ' id='element-1167'><a href='" + pack3_urldestino + "' id='link-44nkxc2kzis' class='url-link btn    item-block' data-at='button' data-link-44nkxc2kzis=''></a></div><div class='widget item-absolute ' id='element-1139'><div class='contents shape  box figure ' data-at='shape'></div></div><div class='widget item-absolute ' id='element-1145'><div class='contents shape  box figure ' data-at='shape'></div></div><div class='widget item-absolute headline  ' id='element-1141' data-at='headline'><div class='contents'><h3><span class='x_da6ad2be'><span class='x_a0ecb142'>" + pack3_titulo + "</span></span></h3></div></div><div class='widget item-absolute headline  ' id='element-1144' data-at='headline'><div class='contents'><h3><span class='x_6f8d78f4 x_225e04ca'><span class='x_a0ecb142'>" + pack3_precio + "</span></span></h3></div></div><div class='widget item-absolute headline  ' id='element-1146' data-at='headline'><div class='contents'><h3><span class='x_00098c5b x_fcd2d15f'><span class='x_a0ecb142'>" + pack4_titulo + "</span></span></h3></div></div><div class='widget item-absolute headline  ' id='element-1147' data-at='headline'><div class='contents'><h3><span class='x_6f8d78f4 x_225e04ca'><span class='x_a0ecb142'>" + pack4_precio + "</span></span></h3></div></div><div class='widget item-absolute paragraph  ' id='element-1140' data-at='paragraph'><div class='contents'><p class='x_fae6260b x_0a34168d'><span class='x_a0ecb142'>" + pack3_bajada + "</span><span class='x_a269ab78'></span></p></div></div><div class='widget item-absolute paragraph  ' id='element-1148' data-at='paragraph'><div class='contents'><p class='x_fae6260b x_0a34168d'><span class='x_a0ecb142'>" + pack4_bajada + "</span></p></div></div></div></div>";
 

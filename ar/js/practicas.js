@@ -84,8 +84,11 @@ function display_title_practicas() {
 
       case 'endocrinologia':title = "Endocrinología";
       opcionespracticas = "<a href='https://wiri.la/especialidad/endocrinologia/consulta-general-en-consultorio?location=current'><div class='especialidades'>Consulta general en consultorio</div></a><a href='https://wiri.la/especialidad/endocrinologia/telemedicina?location=current'><div class='especialidades'>Telemedicina</div></a>";break;
+
+      
       case 'obstetricia':title = "Obstetricia";
-      opcionespracticas = "<a href='https://wiri.la/especialidad/obstetricia/consulta-general-en-consultorio?location=current'><div class='especialidades'>Consulta general en consultorio</div></a><a href='https://wiri.la/especialidad/obstetricia/telemedicina?location=current'><div class='especialidades'>Telemedicina</div></a>";break;
+      opcionespracticas = "<a href='https://wiri.la/especialidad/obstetricia?location=current'><div class='especialidades'>Consulta general en consultorio</div></a><a href='https://wiri.la/especialidad/obstetricia/telemedicina?location=current'><div class='especialidades'>Telemedicina</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/control-de-embarazo?location=current'><div class='especialidades'>Control de embarazo</div></a><a href='https://wiri.la/especialidad/diagnostico-por-imagenes/ecografia-obstetrica?location=current'><div class='especialidades'>Ecografía obstétrica</div></a><a href='https://wiri.la/especialidad/diagnostico-por-imagenes/eco-doppler-obstetrico?location=current'><div class='especialidades'>Eco Doppler Obstétrico</div></a><a href='https://wiri.la/especialidad/laboratorios-clinicos/test-embarazo?location=current'><div class='especialidades'>Test de embarazo</div></a>";break;	 
+
       case 'psiquiatria':title = "Psiquiatría";
       opcionespracticas = "<a href='https://wiri.la/especialidad/psiquiatria/consulta-general-en-consultorio?location=current'><div class='especialidades'>Consulta general en consultorio</div></a><a href='https://wiri.la/especialidad/psiquiatria/telemedicina?location=current'><div class='especialidades'>Telemedicina</div></a>";break;
 

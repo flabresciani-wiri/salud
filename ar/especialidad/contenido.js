@@ -101,7 +101,7 @@ function completar_contenido_dinamico() {
           pack_bajada = "¿Necesitás hacerte un chequeo anual o resolver tus dudas con un ginecólogo? Con nuestros packs podés cuidarte más por menos, seleccioná el tuyo y atendete esta misma semana.";
 
           pack1_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/7c0d3c9b-ed27-0b57-6998-97583de759e2.jpg"
-          pack1_titulo = "Chequeo anual ginecológico";
+          pack1_titulo = "Chequeo ginecológico";
           pack1_precio = "Desde $ 1.500"
           pack1_bajada = "Hacé tu chequeo anual ginecológico. Incluye consulta + PAP + Colposcopia.";
           pack1_urldestino = "https://wiri.la/especialidad/ginecologia/consulta-pap-y-colpo-con-laboratorio?location=current";
@@ -113,10 +113,10 @@ function completar_contenido_dinamico() {
           pack2_urldestino = "https://wiri.la/especialidad/ginecologia?location=current"; 
 
           pack3_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/f49938f6-dd70-bcd0-bd5f-497586417b28.jpg";
-          pack3_titulo = "Guardia ginecológica 24 horas";
-          pack3_precio = "$ 1.100"
-          pack3_bajada = "Ginecólogos disponibles las 24 horas, los 7 días de la semana. Atendete ya.";
-          pack3_urldestino = "https://wiri.la/profesional/llamando-al-doctor-ginecologia/eyJkYXRhYmFzZSI6InVzZXJkYi0zNzYzYTkyMCIsInByYWN0aXRpb25lcklEIjoicHJhY3RpdGlvbmVyLTE1ZjViYWNiIn0=";
+          pack3_titulo = "Estudios ginecología";
+          pack3_precio = "Ver más"
+          pack3_bajada = "Ecografía transvaginal, ginecologíca, Mamaria biletaral y mucho más";
+          pack3_urldestino = "https://salud.wiri.la/ar/categoria.html?e=ginecologia";
 
           pack4_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/a11c7a59-c7b5-276d-3217-486e8c62850b.jpg";
           pack4_titulo = "Videoconsulta ginecológica";
@@ -147,6 +147,8 @@ function completar_contenido_dinamico() {
         boton1_url = "https://wiri.la/especialidad/cardiologia?location=current";
         boton2_texto = "Ver todas las especialidades";
         boton2_url = "https://wiri.la/buscador?location=current";
+        boton3_texto = "Apto físico(Consulta+Electro)";
+        boton3_url = "https://wiri.la/especialidad/cardiologia/apto-fisico?location=current";
 
         //inicio del pack
           pack_titulo = "Conocé nuestros Packs";
@@ -160,7 +162,7 @@ function completar_contenido_dinamico() {
 
           pack2_img = "https://mcusercontent.com/336d436794aab535ddeb48c60/images/e5ce9da0-beef-8e9f-5bb8-55251e11c2f1.jpg"
           pack2_titulo = "Apto físico";
-          pack2_precio = "Desde $ 900"
+          pack2_precio = "Desde $ 1200"
           pack2_bajada = "Conseguí tu apto físico. Incluye consulta con un cardiólogo y electro.";
           pack2_urldestino = "https://wiri.la/especialidad/cardiologia/apto-fisico?location=current";
 
@@ -339,10 +341,12 @@ function completar_contenido_dinamico() {
 
         h1_title = "Odontólogos particulares a solo un click";
 
-        boton1_texto = "Reservá un turno presencial";
+        boton1_texto = "Reservá una consulta";
         boton1_url = "https://wiri.la/especialidad/odontologia?location=current";
-        boton2_texto = "Ver todas las especialidades";
-        boton2_url = "https://wiri.la/buscador?location=current"; 
+        boton2_texto = "Consulta + Limpieza";
+        boton2_url = "https://wiri.la/especialidad/odontologia/consulta-limpieza-odontologica?location=current";
+        boton3_texto = "Blanquemiento Dental";
+        boton3_url = "https://wiri.la/especialidad/odontologia/limpieza-blanqueamiento?location=current";
 
         bullet1_texto = "<strong>Turnos inmediatos</strong> desde $700.";
         bullet2_texto = "<strong>Odontólogos particulares</strong> cerca tuyo.";
